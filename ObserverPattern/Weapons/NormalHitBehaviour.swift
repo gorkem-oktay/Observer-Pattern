@@ -6,7 +6,7 @@
 //  Copyright © 2019 Görkem Oktay. All rights reserved.
 //
 
-class ClubBehaviour: IWeaponBehaviour {
+class NormalHitBehaviour: IWeaponBehaviour {
     
     func calculateDamage(minimum: Int) -> Int {
         return minimum

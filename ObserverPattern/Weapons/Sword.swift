@@ -9,6 +9,6 @@
 class Sword: IWeapon {
     
     init() {
-        super.init(type: "Sword", damage: 10, behaviour: SwordBehaviour())
+        super.init(type: "Sword", damage: 10, behaviour: CriticalStrikeBehaviour())
     }
 }

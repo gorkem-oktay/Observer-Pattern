@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7E5899E6221C1EDB00E43F00 /* IWeapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899E5221C1EDB00E43F00 /* IWeapon.swift */; };
-		7E5899E8221C209300E43F00 /* SwordBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899E7221C209300E43F00 /* SwordBehaviour.swift */; };
-		7E5899EA221C20A000E43F00 /* ClubBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899E9221C20A000E43F00 /* ClubBehaviour.swift */; };
-		7E5899EC221C20AA00E43F00 /* DaggerBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899EB221C20AA00E43F00 /* DaggerBehaviour.swift */; };
+		7E5899E8221C209300E43F00 /* CriticalStrikeBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899E7221C209300E43F00 /* CriticalStrikeBehaviour.swift */; };
+		7E5899EA221C20A000E43F00 /* NormalHitBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899E9221C20A000E43F00 /* NormalHitBehaviour.swift */; };
+		7E5899EC221C20AA00E43F00 /* DoubleStrikeBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899EB221C20AA00E43F00 /* DoubleStrikeBehaviour.swift */; };
 		7E5899EE221C226A00E43F00 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899ED221C226A00E43F00 /* Club.swift */; };
 		7E5899F0221C227200E43F00 /* Dagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899EF221C227200E43F00 /* Dagger.swift */; };
 		7E5899F2221C227A00E43F00 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5899F1221C227A00E43F00 /* Sword.swift */; };
@@ -40,9 +40,9 @@
 
 /* Begin PBXFileReference section */
 		7E5899E5221C1EDB00E43F00 /* IWeapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWeapon.swift; sourceTree = "<group>"; };
-		7E5899E7221C209300E43F00 /* SwordBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwordBehaviour.swift; sourceTree = "<group>"; };
-		7E5899E9221C20A000E43F00 /* ClubBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubBehaviour.swift; sourceTree = "<group>"; };
-		7E5899EB221C20AA00E43F00 /* DaggerBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaggerBehaviour.swift; sourceTree = "<group>"; };
+		7E5899E7221C209300E43F00 /* CriticalStrikeBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriticalStrikeBehaviour.swift; sourceTree = "<group>"; };
+		7E5899E9221C20A000E43F00 /* NormalHitBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalHitBehaviour.swift; sourceTree = "<group>"; };
+		7E5899EB221C20AA00E43F00 /* DoubleStrikeBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleStrikeBehaviour.swift; sourceTree = "<group>"; };
 		7E5899ED221C226A00E43F00 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
 		7E5899EF221C227200E43F00 /* Dagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dagger.swift; sourceTree = "<group>"; };
 		7E5899F1221C227A00E43F00 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
@@ -132,9 +132,9 @@
 			children = (
 				7E73E024221C019900442F68 /* IWeaponBehaviour.swift */,
 				7E5899E5221C1EDB00E43F00 /* IWeapon.swift */,
-				7E5899E7221C209300E43F00 /* SwordBehaviour.swift */,
-				7E5899E9221C20A000E43F00 /* ClubBehaviour.swift */,
-				7E5899EB221C20AA00E43F00 /* DaggerBehaviour.swift */,
+				7E5899E7221C209300E43F00 /* CriticalStrikeBehaviour.swift */,
+				7E5899E9221C20A000E43F00 /* NormalHitBehaviour.swift */,
+				7E5899EB221C20AA00E43F00 /* DoubleStrikeBehaviour.swift */,
 				7E5899ED221C226A00E43F00 /* Club.swift */,
 				7E5899EF221C227200E43F00 /* Dagger.swift */,
 				7E5899F1221C227A00E43F00 /* Sword.swift */,
@@ -200,19 +200,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E73E01C221BFF8D00442F68 /* main.swift in Sources */,
-				7E5899EC221C20AA00E43F00 /* DaggerBehaviour.swift in Sources */,
+				7E5899EC221C20AA00E43F00 /* DoubleStrikeBehaviour.swift in Sources */,
 				7E5899F0221C227200E43F00 /* Dagger.swift in Sources */,
 				7E5899FC221C34B800E43F00 /* Troll.swift in Sources */,
 				7E73E02D221C134200442F68 /* ICharacter.swift in Sources */,
 				7E73E031221C169B00442F68 /* Knight.swift in Sources */,
 				7E5899FE221C36B400E43F00 /* HealthBar.swift in Sources */,
 				7E5899F2221C227A00E43F00 /* Sword.swift in Sources */,
-				7E5899EA221C20A000E43F00 /* ClubBehaviour.swift in Sources */,
+				7E5899EA221C20A000E43F00 /* NormalHitBehaviour.swift in Sources */,
 				7E5899E6221C1EDB00E43F00 /* IWeapon.swift in Sources */,
 				7E73E02F221C159000442F68 /* Goblin.swift in Sources */,
 				7E5899EE221C226A00E43F00 /* Club.swift in Sources */,
 				7E73E025221C019900442F68 /* IWeaponBehaviour.swift in Sources */,
-				7E5899E8221C209300E43F00 /* SwordBehaviour.swift in Sources */,
+				7E5899E8221C209300E43F00 /* CriticalStrikeBehaviour.swift in Sources */,
 				7E5899F6221C302700E43F00 /* IObservable.swift in Sources */,
 				7E5899FA221C31D700E43F00 /* Health.swift in Sources */,
 				7E5899F8221C304A00E43F00 /* IObserver.swift in Sources */,

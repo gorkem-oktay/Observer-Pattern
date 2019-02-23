@@ -9,6 +9,6 @@
 class Dagger: IWeapon {
     
     init() {
-        super.init(type: "Dagger", damage: 4, behaviour: DaggerBehaviour())
+        super.init(type: "Dagger", damage: 4, behaviour: DoubleStrikeBehaviour())
     }
 }

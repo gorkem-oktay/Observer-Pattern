@@ -6,7 +6,7 @@
 //  Copyright © 2019 Görkem Oktay. All rights reserved.
 //
 
-class SwordBehaviour: IWeaponBehaviour {
+class CriticalStrikeBehaviour: IWeaponBehaviour {
     
     func calculateDamage(minimum: Int) -> Int {
         

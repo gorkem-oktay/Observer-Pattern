@@ -9,6 +9,6 @@
 class Club: IWeapon {
     
     init() {
-        super.init(type: "Club", damage: 8, behaviour: ClubBehaviour())
+        super.init(type: "Club", damage: 8, behaviour: NormalHitBehaviour())
     }
 }

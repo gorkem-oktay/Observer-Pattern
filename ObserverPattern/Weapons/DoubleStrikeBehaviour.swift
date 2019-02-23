@@ -6,7 +6,7 @@
 //  Copyright © 2019 Görkem Oktay. All rights reserved.
 //
 
-class DaggerBehaviour: IWeaponBehaviour {
+class DoubleStrikeBehaviour: IWeaponBehaviour {
     
     func calculateDamage(minimum: Int) -> Int {
         
