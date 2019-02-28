@@ -4,7 +4,7 @@
 In these repositories, some design patterns are implemented to a mini game system for self education. They may not be suited to use in an actual game (directly anyway). However, it is good to have some examples underhand to take reference. And even if anyone wants to use them, you are welcome.
 
 ### Definition
-Observer pattern, defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+**_Observer pattern_**, defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
 ### Description
 A basic combat system was implemented that lets characters hit each other. For this we need to show characters health and so we need a health bar. When a character takes damage, its health will be decreased and health bar will be updated to show new value. It is not a hard job to just update a health bar. However, if we want to improve our combat system, if we want to add systems related to health like "when health drops below %20, gain speed", we need to check every condition there and it will cause our code to grow, make it unreadable and debugging very difficult.
